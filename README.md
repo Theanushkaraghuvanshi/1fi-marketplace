@@ -58,13 +58,24 @@ Mobile viewport captures from the running app (`docs/screenshots/`):
 
 ## Deploy (free options)
 
-Yes. This project can be deployed for free:
+Live demos:
 
-1. **Web (easiest for reviewers):** `npx expo export --platform web` then host the `dist/` folder on Vercel, Netlify, or GitHub Pages (all have free tiers).
-2. **Demo on a phone without a store build:** run `npm start` and open with Expo Go.
-3. **Native builds:** Expo Application Services (EAS) has a free tier for development builds.
+- **Vercel (production):** https://1fi-marketplace-alpha.vercel.app
+- **GitHub Pages:** https://theanushkaraghuvanshi.github.io/1fi-marketplace/ (deploys from Actions on every push to `main`)
+
+Other free options:
+
+1. **Expo Go:** run `npm start` and open with Expo Go on a phone.
+2. **EAS Build:** free tier for development Android/iOS builds.
 
 No paid backend is required. Marketplace data is mock data in the repo.
+
+Redeploy web locally:
+
+```bash
+npx expo export --platform web
+npx vercel --prod
+```
 
 ## Marketplace Flow
 
