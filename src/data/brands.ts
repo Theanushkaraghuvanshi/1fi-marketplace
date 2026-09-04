@@ -1,0 +1,103 @@
+import { Brand } from '@/src/types/brand';
+
+/** Mock Top Brands catalog (mirrors 1Fi Shop screenshots). */
+export const brands: Brand[] = [
+  {
+    id: 'air-india',
+    name: 'Air India',
+    maxEmiMonths: 18,
+    logoColor: '#DA291C',
+    logoInitials: 'AI',
+  },
+  {
+    id: 'apple-premium',
+    name: 'Apple Premium Reseller',
+    maxEmiMonths: 24,
+    logoColor: '#1D1D1F',
+    logoInitials: '',
+  },
+  {
+    id: 'caratlane',
+    name: 'CaratLane',
+    maxEmiMonths: 6,
+    logoColor: '#8B1A4B',
+    logoInitials: 'CL',
+  },
+  {
+    id: 'cgh-earth',
+    name: 'CGH Earth',
+    maxEmiMonths: 24,
+    logoColor: '#4A5568',
+    logoInitials: 'CGH',
+  },
+  {
+    id: 'croma',
+    name: 'Croma',
+    maxEmiMonths: 6,
+    logoColor: '#00857C',
+    logoInitials: 'C',
+  },
+  {
+    id: 'easemytrip',
+    name: 'EaseMyTrip Holiday',
+    maxEmiMonths: 18,
+    logoColor: '#1E3A8A',
+    logoInitials: 'EMT',
+  },
+  {
+    id: 'joyalukkas',
+    name: 'Joyalukkas Pure Gold',
+    maxEmiMonths: 9,
+    logoColor: '#B91C1C',
+    logoInitials: 'J',
+  },
+  {
+    id: 'kalyan-diamond',
+    name: 'Kalyan Diamond',
+    maxEmiMonths: 18,
+    logoColor: '#1E293B',
+    logoInitials: 'K',
+  },
+  {
+    id: 'kalyan-gold',
+    name: 'Kalyan Gold Coin',
+    maxEmiMonths: 9,
+    logoColor: '#7F1D1D',
+    logoInitials: 'K',
+  },
+  {
+    id: 'kalyan-jewellers',
+    name: 'Kalyan Jewellers',
+    maxEmiMonths: 12,
+    logoColor: '#DC2626',
+    logoInitials: 'K',
+  },
+  {
+    id: 'makemytrip',
+    name: 'MakeMyTrip',
+    maxEmiMonths: 18,
+    logoColor: '#1E40AF',
+    logoInitials: 'MMT',
+  },
+  {
+    id: 'makemytrip-holidays',
+    name: 'MakeMyTrip Holidays',
+    maxEmiMonths: 36,
+    logoColor: '#1E3A8A',
+    logoInitials: 'MMT',
+  },
+  {
+    id: 'makemytrip-hotel',
+    name: 'MakeMyTrip Hotel',
+    maxEmiMonths: 36,
+    logoColor: '#1E3A8A',
+    logoInitials: 'HOTEL',
+  },
+  {
+    id: 'mokobara',
+    name: 'Mokobara',
+    maxEmiMonths: 12,
+    logoColor: '#111827',
+    logoInitials: 'M',
+  },
+];
