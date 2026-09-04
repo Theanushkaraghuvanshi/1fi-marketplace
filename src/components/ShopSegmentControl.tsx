@@ -33,7 +33,9 @@ export function ShopSegmentControl({ value, onChange }: ShopSegmentControlProps)
             style={[styles.segment, active && styles.segmentActive]}>
             <Text
               style={[styles.label, active ? styles.labelActive : styles.labelInactive]}
-              numberOfLines={1}>
+              numberOfLines={1}
+              adjustsFontSizeToFit
+              minimumFontScale={0.85}>
               {segment.label}
             </Text>
             <View style={[styles.underline, active ? styles.underlineActive : null]} />
@@ -50,29 +52,25 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: colors.segmentTrack,
     borderRadius: radii.pill,
-    padding: 4,
-    gap: 2,
+    padding: 3,
   },
   segment: {
     flex: 1,
+    minWidth: 0,
     alignItems: 'center',
     justifyContent: 'center',
     paddingVertical: 10,
-    paddingHorizontal: 4,
+    paddingHorizontal: 2,
     borderRadius: radii.pill,
   },
   segmentActive: {
     backgroundColor: colors.white,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.06,
-    shadowRadius: 2,
-    elevation: 1,
   },
   label: {
-    fontSize: 12,
+    fontSize: 11,
     fontFamily: 'Inter_600SemiBold',
     textAlign: 'center',
+    width: '100%',
   },
   labelActive: {
     color: colors.primary,
@@ -81,9 +79,9 @@ const styles = StyleSheet.create({
     color: colors.textSecondary,
   },
   underline: {
-    marginTop: 5,
+    marginTop: 4,
     height: 3,
-    width: 32,
+    width: 28,
     borderRadius: radii.pill,
     backgroundColor: 'transparent',
   },

@@ -42,6 +42,30 @@ npm start
 
 Press `a` for Android, `i` for iOS, `w` for web, or scan the QR code with Expo Go.
 
+## Screenshots
+
+Mobile viewport captures from the running app (`docs/screenshots/`):
+
+| Screen | Preview |
+|--------|---------|
+| Shop - Top Brands | ![Shop Top Brands](docs/screenshots/01-shop-top-brands.png) |
+| Marketplace listing | ![Marketplace](docs/screenshots/02-marketplace-listing.png) |
+| Product details | ![Product details](docs/screenshots/03-product-details.png) |
+| EMI selected | ![EMI selected](docs/screenshots/04-product-emi-selected.png) |
+| Confirmation | ![Confirmation](docs/screenshots/05-confirmation.png) |
+| Limit | ![Limit](docs/screenshots/06-limit.png) |
+| Profile | ![Profile](docs/screenshots/07-profile.png) |
+
+## Deploy (free options)
+
+Yes. This project can be deployed for free:
+
+1. **Web (easiest for reviewers):** `npx expo export --platform web` then host the `dist/` folder on Vercel, Netlify, or GitHub Pages (all have free tiers).
+2. **Demo on a phone without a store build:** run `npm start` and open with Expo Go.
+3. **Native builds:** Expo Application Services (EAS) has a free tier for development builds.
+
+No paid backend is required. Marketplace data is mock data in the repo.
+
 ## Marketplace Flow
 
 1. Open Shop
