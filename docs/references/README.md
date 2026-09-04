@@ -1,1 +1,3 @@
-# Local reference screenshots for UI matching (optional)
+# Reference screenshots
+
+Optional UI references used to match the 1Fi Shop shell (Shop, Limit, Profile).
